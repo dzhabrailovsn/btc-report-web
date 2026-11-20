@@ -1,0 +1,216 @@
+{
+ "errors": [
+  "stooq dx.f: 'Date'",
+  "stooq nq.f: 'Date'"
+ ],
+ "source": "OKX (1Dutc)",
+ "price_source": "OKX ticker",
+ "last_date": "19.11.2026 00:00 UTC",
+ "price": 58992.1,
+ "atr_pct": 4.47,
+ "weekly_levels": [
+  61896.0
+ ],
+ "cascades": [],
+ "squeeze": {
+  "range10_ATR": 5.31,
+  "vol_5_20": 1.19,
+  "active": false
+ },
+ "levels": {
+  "R1": 65187.0,
+  "R2": 67128.0,
+  "S1": 58758.0,
+  "S2": null,
+  "res_extra": [
+   71491.0,
+   74665.0,
+   76136.0
+  ],
+  "sup_extra": [],
+  "R1_prov": 66134.0,
+  "S1_prov": null,
+  "nearest_res": 65187.0,
+  "nearest_sup": 58758.0,
+  "w1_defense": null,
+  "w1_defense_far": null,
+  "w1_above": 61896.0
+ },
+ "daily_status": {
+  "last_completed_close": 61984.8,
+  "tested_res_prior": 65187.0,
+  "trap_res_prior": 65187.0,
+  "last_close_above_nearest_res": false,
+  "closes_above_res_prior3d": 0,
+  "close_below_w1_defense": false
+ },
+ "events_flag": [],
+ "h4": {
+  "last_time": "20.11 20:00",
+  "closes_above_nearest_res_24h": 0,
+  "last_close": 58989.6,
+  "max4h_3d": 64883.3
+ },
+ "deriv_source": "okx",
+ "funding_now": -0.0058,
+ "oi_b": [
+  3.79,
+  3.83,
+  3.85,
+  3.86,
+  3.85,
+  3.87,
+  3.46,
+  3.24,
+  3.03,
+  2.99,
+  2.95,
+  3.11,
+  3.05,
+  2.92
+ ],
+ "oi_trend_3d_pct": -0.89,
+ "oi_note": "OKX свопы (не вся биржа)",
+ "ls_accounts": [
+  2.47,
+  2.82,
+  2.93,
+  3.29,
+  2.92,
+  2.97,
+  3.09
+ ],
+ "taker_1d": [
+  1.0,
+  0.99,
+  0.97,
+  1.13,
+  1.04
+ ],
+ "taker_1h_last12": [
+  0.77,
+  1.17,
+  1.01,
+  1.01,
+  1.16,
+  0.97,
+  1.08,
+  1.25,
+  1.01,
+  1.11,
+  1.12,
+  1.1
+ ],
+ "taker_1h_avg48": 1.064,
+ "book": {
+  "source": "okx",
+  "bids_pm1.5%": {
+   "sum_USD_m": 5.7,
+   "top_wall": [
+    58980.0,
+    1.0
+   ]
+  },
+  "asks_to_R1x1.01": {
+   "sum_USD_m": 4.6,
+   "top_wall": [
+    59109.0,
+    0.6
+   ]
+  },
+  "asks_R1_to_R1x1.02": {
+   "sum_USD_m": 0.0,
+   "top_wall": [
+    0,
+    0.0
+   ]
+  }
+ },
+ "macro": {},
+ "options": {
+  "expiry": "25DEC26",
+  "total_oi_btc": 156014.0,
+  "max_pain": 72395,
+  "top_call_walls": [
+   [
+    80000,
+    8.1
+   ],
+   [
+    100000,
+    6.5
+   ],
+   [
+    120000,
+    5.9
+   ]
+  ],
+  "top_put_walls": [
+   [
+    60000,
+    6.7
+   ],
+   [
+    40000,
+    6.2
+   ],
+   [
+    80000,
+    3.4
+   ]
+  ]
+ },
+ "checklist_A": [
+  [
+   "Сжатие/поджатие у уровня",
+   "FAIL",
+   "диапазон10д/ATR=5.3, объём 5/20=1.19"
+  ],
+  [
+   "Близость к ближ. сопротивлению (<2.5%)",
+   "FAIL",
+   "уровень 65,187, дистанция 10.50%"
+  ],
+  [
+   "Тренд D1 вверх (EMA20>EMA50)",
+   "FAIL",
+   ""
+  ],
+  [
+   "Каскад D1+W1 на сопротивлении",
+   "FAIL/NEUTRAL",
+   "[]"
+  ],
+  [
+   "Фандинг не перегрет (<0.01%/8ч)",
+   "PASS",
+   "-0.0058%"
+  ],
+  [
+   "OI растёт (деньги заходят)",
+   "FAIL",
+   "-0.89% за 3д"
+  ],
+  [
+   "Taker-агрессия покупателей (>1.05)",
+   "PASS",
+   "avg48h=1.064"
+  ],
+  [
+   "Розница не перекошена в лонг (<1.4)",
+   "FAIL",
+   "3.09"
+  ],
+  [
+   "Нет стены продавца над уровнем",
+   "INFO",
+   "{'sum_USD_m': 0.0, 'top_wall': [0, 0.0]}"
+  ],
+  [
+   "Закреп выше сопротивления (D1 close)",
+   "WAIT — триггер",
+   "0 закрытий D1 из 3 выше 65,187"
+  ]
+ ],
+ "score_A": "2/7"
+}

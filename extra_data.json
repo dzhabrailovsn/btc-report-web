@@ -1,0 +1,83 @@
+{
+ "fng": [
+  {
+   "d": "20.11",
+   "v": "12",
+   "c": "Extreme Fear"
+  },
+  {
+   "d": "19.11",
+   "v": "10",
+   "c": "Extreme Fear"
+  },
+  {
+   "d": "18.11",
+   "v": "11",
+   "c": "Extreme Fear"
+  },
+  {
+   "d": "17.11",
+   "v": "12",
+   "c": "Extreme Fear"
+  },
+  {
+   "d": "16.11",
+   "v": "10",
+   "c": "Extreme Fear"
+  },
+  {
+   "d": "15.11",
+   "v": "10",
+   "c": "Extreme Fear"
+  },
+  {
+   "d": "14.11",
+   "v": "13",
+   "c": "Extreme Fear"
+  }
+ ],
+ "dom_btc": 57.8,
+ "dom_eth": 9.7,
+ "mcap_btc_b": 2.05,
+ "mcap_chg_24h": -7.46,
+ "coinbase_prem_pct": -0.232,
+ "eth_corr30": 0.9,
+ "eth_btc_ratio": 0.02753,
+ "rv30_pct": 46.6,
+ "stables": {
+  "total_b": 247.7,
+  "items": [
+   {
+    "sym": "USDT",
+    "cap_b": 174.9
+   },
+   {
+    "sym": "USDC",
+    "cap_b": 68.1
+   },
+   {
+    "sym": "DAI",
+    "cap_b": 4.4
+   },
+   {
+    "sym": "FDUSD",
+    "cap_b": 0.3
+   }
+  ],
+  "trend30_pct": {
+   "USDT": -4.32,
+   "USDC": -6.04
+  }
+ },
+ "dxy": {
+  "last": 103.8,
+  "vs_e20": "выше",
+  "vs_e50": "выше"
+ },
+ "ndx": {
+  "last": 25029.0,
+  "vs_e20": "ниже",
+  "vs_e50": "ниже"
+ },
+ "updated": "20.11.2026 23:46 UTC"
+}

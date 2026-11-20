@@ -1,0 +1,28 @@
+=== запуск 21.11.2026 02:41:00 ===
+[OK] btc_fetch_extra.py (FAIL: -)
+[OK] btc_full.py (PNG saved)
+[ERR] btc_liqmap.py ()
+    stderr: orkspace\default\btc_report_web\btc_liqmap.py", line 11, in <module>
+    oi = json.load(open(OUT + "/oi_1h.json"))
+                   ~~~~^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Lenovo Legion\\.zcode\\workspace\\default\\btc_report_web/oi_1h.json'
+[OK] btc_backtest.py (  sq<4.0 dist<3.5% -> сигналов 3, сделок 3, win 0.0%, avgR -0.76)
+[OK] btc_report_html.py (saved btc_report.html v4 (276 KB), вердикт: НЕЙТРАЛЬНО: сетапа нет)
+btc_report.html обновлён 21.11 02:41 (0с назад, 282 KB)
+=== итог: PARTIAL ===
+=== запуск 21.11.2026 02:42:46 ===
+[OK] btc_fetch_extra.py (FAIL: -)
+[OK] btc_full.py (PNG saved)
+[OK] btc_liqmap.py ({"disabled": true, "note": "карта ликвидаций: нет часовых данных (сеть/источник)"})
+[OK] btc_backtest.py (  sq<4.0 dist<3.5% -> сигналов 3, сделок 3, win 0.0%, avgR -0.76)
+[OK] btc_report_html.py (saved btc_report.html v4 (276 KB), вердикт: НЕЙТРАЛЬНО: сетапа нет)
+btc_report.html обновлён 21.11 02:43 (0с назад, 282 KB)
+=== итог: OK ===
+=== запуск 21.11.2026 02:46:23 ===
+[OK] btc_fetch_extra.py (FAIL: -)
+[OK] btc_full.py (PNG saved)
+[OK] btc_liqmap.py (liq_map.png saved)
+[OK] btc_backtest.py (  sq<4.0 dist<3.5% -> сигналов 3, сделок 3, win 0.0%, avgR -0.76)
+[OK] btc_report_html.py (saved btc_report.html v4 (428 KB), вердикт: НЕЙТРАЛЬНО: сетапа нет)
+btc_report.html обновлён 21.11 02:46 (0с назад, 434 KB)
+=== итог: OK ===

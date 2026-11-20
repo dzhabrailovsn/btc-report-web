@@ -1,0 +1,53 @@
+{
+ "asof": "2026-11-20T23:46:38Z",
+ "sources": {
+  "ticker": {
+   "url": "https://www.okx.com/api/v5/market/ticker?instId=BTC-USDT",
+   "fetched_at": "2026-11-20T23:46:34Z",
+   "status": "OK",
+   "attempts": 1
+  },
+  "funding": {
+   "url": "https://www.okx.com/api/v5/public/funding-rate?instId=BTC-USDT-SWAP",
+   "fetched_at": "2026-11-20T23:46:35Z",
+   "status": "OK",
+   "attempts": 1
+  },
+  "oi_d": {
+   "url": "https://www.okx.com/api/v5/rubik/stat/contracts/open-interest-volume?ccy=BTC&period=1D",
+   "fetched_at": "2026-11-20T23:46:35Z",
+   "status": "OK",
+   "attempts": 1
+  },
+  "ls": {
+   "url": "https://www.okx.com/api/v5/rubik/stat/contracts/long-short-account-ratio?ccy=BTC&period=1D",
+   "fetched_at": "2026-11-20T23:46:36Z",
+   "status": "OK",
+   "attempts": 1
+  },
+  "taker_d": {
+   "url": "https://www.okx.com/api/v5/rubik/stat/taker-volume?ccy=BTC&instType=CONTRACTS&period=1D",
+   "fetched_at": "2026-11-20T23:46:36Z",
+   "status": "OK",
+   "attempts": 1
+  },
+  "taker_h": {
+   "url": "https://www.okx.com/api/v5/rubik/stat/taker-volume?ccy=BTC&instType=CONTRACTS&period=1H",
+   "fetched_at": "2026-11-20T23:46:37Z",
+   "status": "OK",
+   "attempts": 1
+  },
+  "books": {
+   "url": "https://www.okx.com/api/v5/market/books?instId=BTC-USDT&sz=400",
+   "fetched_at": "2026-11-20T23:46:37Z",
+   "status": "OK",
+   "attempts": 1
+  },
+  "options": {
+   "url": "https://www.deribit.com/api/v2/public/get_book_summary_by_currency?currency=BTC&kind=option",
+   "fetched_at": "2026-11-20T23:46:38Z",
+   "status": "OK",
+   "attempts": 1
+  }
+ }
+}

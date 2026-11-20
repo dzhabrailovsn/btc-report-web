@@ -1,0 +1,143 @@
+[
+ {
+  "date": "2026-09-07",
+  "title": "Labor Day — выходной в США",
+  "impact": "holiday",
+  "source": "manual"
+ },
+ {
+  "date": "2026-09-08",
+  "title": "Stablecon '26 — конференция по стейблкоинам, Вашингтон (08–10.09)",
+  "impact": "med",
+  "source": "auto"
+ },
+ {
+  "date": "2026-09-11",
+  "time": "15:30 CET (8:30 ET)",
+  "title": "CPI за август — инфляция США",
+  "impact": "high"
+ },
+ {
+  "date": "2026-09-15",
+  "title": "FOMC, день 1",
+  "impact": "med"
+ },
+ {
+  "date": "2026-09-16",
+  "time": "20:00 CET",
+  "title": "Решение ФРС по ставке + пресс-конференция",
+  "impact": "high"
+ },
+ {
+  "date": "2026-09-16",
+  "title": "European Blockchain Convention 2026, Барселона (16–17.09)",
+  "impact": "low",
+  "source": "auto"
+ },
+ {
+  "date": "2026-09-28",
+  "title": "Korea Blockchain Week (28–30.09)",
+  "impact": "low",
+  "source": "auto"
+ },
+ {
+  "date": "2026-09-30",
+  "title": "PCE за август (любимый индекс ФРС, BEA)",
+  "impact": "med",
+  "time": "15:30 CET",
+  "source": "auto"
+ },
+ {
+  "date": "2026-10-05",
+  "title": "TOKEN2049 Singapore — крупнейшая конференция Азии (05–11.10)",
+  "impact": "med",
+  "source": "auto"
+ },
+ {
+  "date": "2026-10-12",
+  "title": "Columbus Day — выходной в США",
+  "impact": "holiday",
+  "source": "manual"
+ },
+ {
+  "date": "2026-10-14",
+  "title": "CPI за сентябрь (подтв. BLS)",
+  "impact": "high",
+  "time": "15:30 CET (8:30 ET)",
+  "source": "auto"
+ },
+ {
+  "date": "2026-10-18",
+  "title": "Bitcoin 2026 — крупнейшая биткоин-конференция, Нэшвилл (18–21.10)",
+  "impact": "med",
+  "source": "auto"
+ },
+ {
+  "date": "2026-10-27",
+  "title": "FOMC октябрь, день 1",
+  "impact": "med",
+  "source": "auto"
+ },
+ {
+  "date": "2026-10-28",
+  "title": "Решение ФРС (октябрьское)",
+  "impact": "high",
+  "time": "20:00 CET",
+  "source": "auto"
+ },
+ {
+  "date": "2026-10-30",
+  "title": "Экспира месячных опционов Deribit",
+  "impact": "med",
+  "source": "auto"
+ },
+ {
+  "date": "2026-11-05",
+  "title": "Bitcoin Amsterdam (05–06.11)",
+  "impact": "low",
+  "source": "auto"
+ },
+ {
+  "date": "2026-11-10",
+  "title": "Конец тарифных исключений US–China (178 товаров)",
+  "impact": "med"
+ },
+ {
+  "date": "2026-11-10",
+  "title": "CPI за октябрь (подтв. BLS)",
+  "impact": "high",
+  "time": "15:30 CET",
+  "source": "auto"
+ },
+ {
+  "date": "2026-11-11",
+  "title": "Veterans Day — выходной в США",
+  "impact": "holiday",
+  "source": "manual"
+ },
+ {
+  "date": "2026-11-26",
+  "title": "Thanksgiving — выходной в США",
+  "impact": "holiday",
+  "source": "manual"
+ },
+ {
+  "date": "2026-12-08",
+  "title": "FOMC декабрь + прогнозы SEP, день 1",
+  "impact": "med",
+  "source": "auto"
+ },
+ {
+  "date": "2026-12-09",
+  "title": "Решение ФРС декабрь + пресс-конференция",
+  "impact": "high",
+  "time": "20:00 CET",
+  "source": "auto"
+ },
+ {
+  "date": "2026-12-25",
+  "title": "Christmas — выходной в США",
+  "impact": "holiday",
+  "source": "manual"
+ }
+]
